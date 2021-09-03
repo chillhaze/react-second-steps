@@ -1,0 +1,38 @@
+.wrapper {
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+
+  border: 1px solid rgb(122 118 97 / 98%);
+  border-radius: 6px;
+
+  background-color: #fff;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(48, 49, 53);
+  padding: 10px 0;
+}
+
+.ColorPicker {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: transform 250ms linear;
+}
+
+.btnActive {
+  transform: scale(1.1);
+}

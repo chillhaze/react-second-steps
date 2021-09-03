@@ -1,0 +1,45 @@
+.Dropdown {
+  margin: 60px auto 0;
+  position: relative;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+button.toggle {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 0.1em solid #353434;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background-color: teal;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.toggle:hover {
+  color: #000000;
+  background-color: #c9f2f5;
+}
+
+ .toggle {
+  display: block;
+  margin: 0.4em auto;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: teal;
+  color: white;
+}
