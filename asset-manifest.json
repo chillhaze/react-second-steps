@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-second-steps/static/css/main.3048c22f.chunk.css",
-    "main.js": "/react-second-steps/static/js/main.c8229ca5.chunk.js",
-    "main.js.map": "/react-second-steps/static/js/main.c8229ca5.chunk.js.map",
+    "main.css": "/react-second-steps/static/css/main.9c90ef5a.chunk.css",
+    "main.js": "/react-second-steps/static/js/main.fd15420e.chunk.js",
+    "main.js.map": "/react-second-steps/static/js/main.fd15420e.chunk.js.map",
     "runtime-main.js": "/react-second-steps/static/js/runtime-main.22c4af19.js",
     "runtime-main.js.map": "/react-second-steps/static/js/runtime-main.22c4af19.js.map",
-    "static/js/2.03b96d41.chunk.js": "/react-second-steps/static/js/2.03b96d41.chunk.js",
-    "static/js/2.03b96d41.chunk.js.map": "/react-second-steps/static/js/2.03b96d41.chunk.js.map",
+    "static/js/2.27185190.chunk.js": "/react-second-steps/static/js/2.27185190.chunk.js",
+    "static/js/2.27185190.chunk.js.map": "/react-second-steps/static/js/2.27185190.chunk.js.map",
     "index.html": "/react-second-steps/index.html",
-    "static/css/main.3048c22f.chunk.css.map": "/react-second-steps/static/css/main.3048c22f.chunk.css.map",
-    "static/js/2.03b96d41.chunk.js.LICENSE.txt": "/react-second-steps/static/js/2.03b96d41.chunk.js.LICENSE.txt"
+    "static/css/main.9c90ef5a.chunk.css.map": "/react-second-steps/static/css/main.9c90ef5a.chunk.css.map",
+    "static/js/2.27185190.chunk.js.LICENSE.txt": "/react-second-steps/static/js/2.27185190.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.22c4af19.js",
-    "static/js/2.03b96d41.chunk.js",
-    "static/css/main.3048c22f.chunk.css",
-    "static/js/main.c8229ca5.chunk.js"
+    "static/js/2.27185190.chunk.js",
+    "static/css/main.9c90ef5a.chunk.css",
+    "static/js/main.fd15420e.chunk.js"
   ]
 }
