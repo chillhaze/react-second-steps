@@ -1,0 +1,28 @@
+.container {
+  margin: 20px auto 0;
+  padding: 20px 10px;
+
+  max-width: 600px;
+
+  border: 1px solid teal;
+  background-color: #fff;
+  line-height: 30px;
+}
+
+.input {
+  display: block;
+  padding: 5px 5px;
+  margin-left: 10px;
+
+  border-color: teal;
+}
+
+.input:focus,
+.input:focus-visible,
+.input:active {
+  display: block;
+  padding: 5px 5px;
+
+  border-color: red;
+  outline-color: red;
+}
