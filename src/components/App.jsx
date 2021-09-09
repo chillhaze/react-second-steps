@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 // import PropTypes from 'prop-types'
 
+import { VideoList } from './VideoList';
+import ReactPlayer from 'react-player';
+import videos from './data/videos.json';
+
+import { Section } from './Section';
 import { Counter } from './Counter';
 import { Dropdown } from './Dropdown';
 import { Toggle } from './Toggle';
@@ -16,6 +21,11 @@ export class App extends Component {
   state = {
     todos: todosData,
     inputValue: '',
+    selectedVideo: null,
+  };
+
+  selectedVideo = link => {
+    this.setState({ selectedVideo: link });
   };
 
   deleteTodo = todoId => {
@@ -39,6 +49,7 @@ export class App extends Component {
   };
 
   render() {
+    const { selectedVideo } = this.state;
     const { todos } = this.state;
 
     const totalTodoCount = todos.length;
@@ -49,6 +60,26 @@ export class App extends Component {
 
     return (
       <div>
+        <Section>
+          <ReactPlayer
+            url={selectedVideo}
+            controls
+            style={{
+              margin: 'auto',
+              backgroundImage:
+                'url(https://www.pngkit.com/png/full/267-2678423_bacteria-video-thumbnail-default.png)',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+            }}
+          />
+          <VideoList
+            videos={videos}
+            onSelect={this.selectedVideo}
+            selectedVideo={selectedVideo}
+          />
+        </Section>
+
         <div>
           <SubmitForm onSubmit={this.formSubmitHandler} />
         </div>

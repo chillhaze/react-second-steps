@@ -1,0 +1,48 @@
+.container {
+  margin: 20px auto 0;
+  padding: 20px 10px;
+
+  max-width: 600px;
+
+  border: 1px solid teal;
+  background-color: #fff;
+}
+
+.title {
+  line-height: 25px;
+  padding: 5px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 160px 160px 160px;
+  justify-content: center;
+}
+.item {
+  padding: 5px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  max-width: 150px;
+  margin-left: 10px;
+
+  border: 0.1em solid #353434;
+
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background-color: teal;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000000;
+  background-color: #c9f2f5;
+}
