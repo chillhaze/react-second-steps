@@ -68,11 +68,12 @@ export class App extends Component {
             onChange={this.handleInputChange}
           />
         </div>
-        <div>
-          <p>Общее количество ToDo: {totalTodoCount}</p>
-          <p>Кол-во выполненых ToDo: {comletedTodosCount}</p>
-        </div>
-        <TodoList todos={todos} deleteTodo={this.deleteTodo} />
+        <TodoList
+          todos={todos}
+          deleteTodo={this.deleteTodo}
+          totalTodoCount={totalTodoCount}
+          comletedTodosCount={comletedTodosCount}
+        />
         <ColorPicker options={colorPickerOptions} />
         <Counter initialValue={0} />
         <Counter initialValue={10} />
